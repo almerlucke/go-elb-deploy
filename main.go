@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/aliensteam51/go-deploy/deploy"
+	"github.com/almerlucke/go-elb-deploy/deploy"
 )
 
 func main() {
