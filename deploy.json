@@ -1,0 +1,31 @@
+{
+    "files": [
+        "config",
+        "controllers",
+        "Dockerfile",
+        "Dockerrun.aws.json",
+        "errors",
+        "models",
+        "routes",
+        "server.go",
+        "services",
+        "translations",
+        "utils",
+        "vendor"
+    ],
+    "aws": {
+        "region": "eu-central-1",
+        "s3": {
+            "bucket": "my-app-builds"
+        },
+        "credentials": {
+            "accessKey": "MY-ACCESS-KEY",
+            "secretAccessKey": "MY-SECRET-ACCESS-KEY"
+        },
+        "elb": {
+            "applicationName": "MyApplicationName",
+            "environmentName": "MyEnvironmentName"
+        }
+    },
+    "branch": "master"
+}
